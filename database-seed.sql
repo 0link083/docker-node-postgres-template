@@ -9,4 +9,5 @@ CREATE TABLE employees
 INSERT INTO employees(name, title) VALUES
  ('Meadow Crystalfreak ', 'Head of Operations'),
  ('Buddy-Ray Perceptor', 'DevRel'),
- ('Prince Flitterbell', 'Marketing Guru');
+ ('Prince Flitterbell', 'Marketing Guru'),
+ ('Gran-Torino', 'The God of Whimsy');
