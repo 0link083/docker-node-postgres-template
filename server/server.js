@@ -9,7 +9,7 @@ const client = new Client({
   host: "postgres",
 });
 
-app.use(express.static(path.resolve(__dirname, "../client/build")));
+app.use("../client/build");
 app.use(express.json())
 
 app.get("/employees", async (req, res) => {
