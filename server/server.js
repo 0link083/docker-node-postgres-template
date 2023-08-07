@@ -3,13 +3,16 @@ const express = require("express");
 const app = express();
 const port = 8080;
 
+
 const client = new Client({
   password: "root",
   user: "root",
   host: "postgres",
 });
 
-app.use(express.static("../client/build"));
+const path = require("path");
+app.use(express.static(path.resolve(__dirname, "../client/build")));
+
 app.use(express.json())
 
 app.get("/employees", async (req, res) => {
