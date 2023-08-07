@@ -1,4 +1,4 @@
-fetch("/employees")
+/*fetch("/employees")
   .then((response) => response.json())
   .then((data) => {
     data.forEach((employee) => {
@@ -15,4 +15,5 @@ fetch("/employees")
       // Append the card as a child with the employee data to the <body> element on our page
       document.body.appendChild(card);
     });
-});
+  });
+*/
